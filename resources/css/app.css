@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.select2-container--default .select2-selection--single {
+   background-color: #fff;
+    height: 42px;
+    border: 1px solid #D1D5DB;
+    border-radius: 4px;
+    display: flex !important;
+    align-items: center;
+    justify-content:flex-start;
+}
+
+.select2-container .select2-selection--single {
+    box-sizing: border-box;
+    cursor: pointer;
+    display: block;
+    /* height: 28px; */
+    user-select: none;
+    -webkit-user-select: none;
+}
